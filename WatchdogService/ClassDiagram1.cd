@@ -1,0 +1,127 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="Microsoft.ServiceFabric.WatchdogService.HealthCheckOperations">
+    <Position X="0.5" Y="0.75" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AgAICAIAAiEECQAQAgABEAgGAKAAAACACCAQQgAAAQQ=</HashCode>
+      <FileName>HealthCheckOperations.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="System.Fabric.FabricClient">
+    <Position X="4.5" Y="2.75" Width="2.5" />
+    <NestedTypes>
+      <Delegate Name="System.Fabric.FabricClient.ClaimsRetrievalEventHandler" Collapsed="true">
+        <TypeIdentifier />
+      </Delegate>
+      <Class Name="System.Fabric.FabricClient.ClusterManagementClient" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="System.Fabric.FabricClient.ClaimsRetrievalEventArgs" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="System.Fabric.FabricClient.ComposeDeploymentClient" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="System.Fabric.FabricClient.FaultManagementClient" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="System.Fabric.FabricClient.QueryClient" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="System.Fabric.FabricClient.ServiceGroupManagementClient" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="System.Fabric.FabricClient.ApplicationManagementClient" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="System.Fabric.FabricClient.TestManagementClient" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="System.Fabric.FabricClient.ServiceManagementClient" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="System.Fabric.FabricClient.NetworkManagementClient" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="System.Fabric.FabricClient.HealthClient" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="System.Fabric.FabricClient.RepairManagementClient" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="System.Fabric.FabricClient.InfrastructureServiceClient" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="System.Fabric.FabricClient.GatewayInformationEventArgs" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+      <Class Name="System.Fabric.FabricClient.PropertyManagementClient" Collapsed="true">
+        <TypeIdentifier />
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier />
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.ServiceFabric.WatchdogService.WatchdogService">
+    <Position X="7.75" Y="0.75" Width="4.75" />
+    <TypeIdentifier>
+      <HashCode>EAAEBUBFAAEQAUASgQQAAAIUAACQAAIAgAAAMKAAIRQ=</HashCode>
+      <FileName>WatchdogService.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.ServiceFabric.Services.Runtime.StatefulService">
+    <Position X="12.75" Y="3.25" Width="2.25" />
+    <TypeIdentifier />
+  </Class>
+  <Class Name="Microsoft.ServiceFabric.WatchdogService.ServiceEventSource">
+    <Position X="13" Y="5.25" Width="2.75" />
+    <NestedTypes>
+      <Class Name="Microsoft.ServiceFabric.WatchdogService.ServiceEventSource.Keywords" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>ServiceEventSource.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Class>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAAFAQAgAAACQAgAACCADAAEABAABAAAAJAIAhBggA=</HashCode>
+      <FileName>ServiceEventSource.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Microsoft.ServiceFabric.WatchdogService.OwinCommunicationListener">
+    <Position X="16" Y="0.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ACAAAgAAAgAAACAQBAAAAAAAAAAAAECAIUEAAAAAgAA=</HashCode>
+      <FileName>OwinCommunicationListener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Microsoft.ServiceFabric.WatchdogService.Extensions">
+    <Position X="16" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAQAEAAAAAgAAAIAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>UtilAndExtensions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Struct Name="Microsoft.ServiceFabric.WatchdogService.Models.HealthCheck">
+    <Position X="0.5" Y="8.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAQgACAA4AwEAgIAUQCIAAQIAAAAAAAAAgBjA=</HashCode>
+      <FileName>Models\HealthCheck.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Struct>
+  <Interface Name="Microsoft.ServiceFabric.WatchdogService.Interfaces.IWatchdogService">
+    <Position X="12.75" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAgAAAAAQAgAAAAAAAAAAAAAAgAAAAIAAAAQ=</HashCode>
+      <FileName>Interfaces\IWatchdogService.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="System.Fabric.Health.HealthState">
+    <Position X="4.75" Y="0.75" Width="1.5" />
+    <TypeIdentifier />
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
